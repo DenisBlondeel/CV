@@ -1,0 +1,116 @@
+html, body{
+    height: 100%;
+    font-family: 'Gill Sans', 'Gill Sans MT', Calibri, 'Trebuchet MS', sans-serif;
+}
+
+body{
+    display: grid;
+    grid-template-columns: 70% 30%;
+    grid-template-rows: 7rem auto 2rem;
+    margin: 0;
+}
+
+header{
+    background-color: #045a5e;
+    grid-column-start: 1;
+    grid-column-end: 3;
+    color: white;
+}
+
+footer{
+    background-color: #045a5e;
+    grid-column-start: 1;
+    grid-column-end: 3;
+}
+
+#intro{
+    margin-left: 3rem;
+    margin-right: 2rem;
+}
+
+#name{
+    /*padding-top: 0.75rem;*/
+    padding-left: 3rem;
+    font-size: 2rem;
+}
+img{
+    max-width: 90%;
+    height: auto;
+    padding: 10px;
+    padding-bottom: 1rem;
+}
+.image{
+    text-align: center;
+}
+h2{
+
+    margin-left: 3rem;
+    color: #045a5e;
+}
+
+.detailInfo{
+    margin-left: 3rem;
+}
+
+.detailInfo>h3{
+    margin-bottom: 0;
+}
+
+.detailInfo>p{
+    margin-top: 0;
+    margin-bottom: 0;
+}
+
+.sideInfo{
+    background-color: #d7d8d9;
+}
+
+.summary>ul>li{
+    margin-left: 3rem;
+    margin-bottom: 10px;
+}
+.summary>ul{
+    margin-top: 0.5rem;
+    margin-bottom: 1.5rem;
+}
+
+.summary>h5{
+    margin-left: 3rem;
+    margin-bottom: 0;
+}
+
+b{
+    margin-left: 3rem;
+}
+
+#notboldheader{
+    margin-left: 3rem;
+}
+
+.experience{
+    display: grid;
+    grid-template-columns: 3rem 0.5rem auto;
+}
+.experienceHead{
+    grid-column-start: 1;
+    grid-column-end: 4;
+}
+.experienceBody{
+    grid-column-start: 3;
+    grid-column-end: 4;
+}
+.experienceBanner{
+    background-color: #045a5e;
+    grid-column-start: 2;
+    grid-column-end: 3;
+}
+
+dd, dt{
+    margin-bottom: 0.5rem;
+    margin-right: 3rem;
+}
+.interests>p{
+    margin-left: 3rem
+}
+
+
